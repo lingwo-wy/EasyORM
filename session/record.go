@@ -33,7 +33,7 @@ func (s *Session) Insert (values ...interface{}) (int64, error) {
 //Find的功能实现和Inser是反过来，Find要通过平铺字段值构造出对象
 
 //应该设计成如下：
-// s := geeorm.NewEngine("sqlite3", "gee.db").NewSession()
+// s := easyorm.NewEngine("sqlite3", "gee.db").NewSession()
 // var users []User
 // s.Find(&users);
 

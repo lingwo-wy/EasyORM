@@ -65,7 +65,7 @@ func Parse(dest interface{}, d dialect.Dialect) *Schema {
 }
 
 //希望通过这种方式调用函数
-// s := geeorm.NewEngine("sqlite3", "gee.db").NewSession()
+// s := easyorm.NewEngine("sqlite3", "gee.db").NewSession()
 // u1 := &User{Name: "Tom", Age: 18}
 // u2 := &User{Name: "Sam", Age: 25}
 // s.Insert(u1, u2, ...)

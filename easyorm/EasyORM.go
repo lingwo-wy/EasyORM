@@ -98,6 +98,7 @@ func difference( a, b []string) (diff []string) {
 	return
 }
 
+
 //迁移表:使用ALTER（alter）语句新增字段，使用创建表并重命名的方式删除字段.
 func (engine *Engine) Migrate(value interface{}) error {
 
